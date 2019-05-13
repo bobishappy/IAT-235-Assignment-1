@@ -1,33 +1,51 @@
-
-h3 {
+h1 {
   font-size: 50px;
   font-family: monospace;
-background-color: pink;
+  background-color: pink;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: monospace;
+  font-style: normal;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 p {
   font-family: verdana;
-  font-size: 20px;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-p1 {
-  font-size: 20px;
-  font-family: monospace;
-}
 img {
-  width: auto;
+  width: 400px;
   height: auto;
   border-radius: 5px;
 }
 
-div.another_section {
-  background-color: lightblue;
-  width: auto;
+div {
   font-family: sans-serif;
+  padding-bottom: 10px;
 }
 
-div.third_section {
-  background-color: lightgreen;
-  font-style: normal;
+div.welcome_section {
+  display: table;
+  margin: 0 auto;
+}
 
+div.menu_section {
+  background-color: lightblue;
+}
+
+div.contact_section {
+  background-color: lightgreen;
+}
+
+div.map_section {
+  background-color: lightyellow;
 }
