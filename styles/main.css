@@ -2,6 +2,7 @@
 h3 {
   font-size: 50px;
   font-family: monospace;
+background-color: pink;
 }
 
 p {
@@ -27,7 +28,6 @@ div.another_section {
 
 div.third_section {
   background-color: lightgreen;
-  font-size: 80px;
   font-style: normal;
-  font-family: fantasy;
+
 }
