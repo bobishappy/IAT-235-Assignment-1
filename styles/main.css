@@ -1,3 +1,4 @@
+
 h3 {
   font-size: 50px;
   font-family: monospace;
@@ -8,8 +9,12 @@ p {
   font-size: 20px;
 }
 
+p1 {
+  font-size: 20px;
+  font-family: monospace;
+}
 img {
-  width: 300px;
+  width: auto;
   height: auto;
   border-radius: 5px;
 }
@@ -17,4 +22,12 @@ img {
 div.another_section {
   background-color: lightblue;
   width: auto;
+  font-family: sans-serif;
+}
+
+div.third_section {
+  background-color: lightgreen;
+  font-size: 80px;
+  font-style: normal;
+  font-family: fantasy;
 }
